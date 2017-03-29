@@ -2,14 +2,11 @@
 
 ## Chrome Debug - Webpack based bundle
 Note: before debugging, launch chrome with parameter:
-```
+```sh
 /Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary --remote-debugging-port=9222
 ```
-```
+```json
 {
-  // Use IntelliSense to learn about possible Node.js debug attributes.
-  // Hover to view descriptions of existing attributes.
-  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
   "configurations": [
     {
