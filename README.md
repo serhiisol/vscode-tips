@@ -26,4 +26,21 @@ Note: before debugging, launch chrome with parameter:
 }
 ```
 
+### Karma + webpack
+```json
+{
+  "type": "chrome",
+  "request": "attach",
+  "name": "Attach to Karma",
+  "port": 9222,
+  "webRoot": "${workspaceRoot}",
+  "url": "http://localhost:9876/debug.html",
+  "trace": true,
+  "sourceMaps": true,
+  "sourceMapPathOverrides": {
+      "webpack:///./*":   "${workspaceRoot}/*"
+  }
+}
+```
+
 ## License MIT :)
